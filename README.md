@@ -1,4 +1,8 @@
 # frontend
 LMS Frontend
 
-Steps for setup
+Steps for setup:
+
+Step 1: npm install
+
+Step 2: npm start
