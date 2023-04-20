@@ -1,0 +1,52 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #d3d3d3;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.pi-user {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icon-container {
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.icon-container:hover {
+    background-color: #c3c2c2;
+}
+
+.p-overlaypanel-content {
+    padding: 0 !important;
+}
+
+.overlay-option {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.overlay-option:hover {
+    background-color: #F2F1F0;
+    transition: all 0.3s ease-out;
+}
+
+.user-name {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+}

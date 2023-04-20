@@ -1,0 +1,135 @@
+.book-container {
+    background-color: #F2F1F0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.book-container:hover {
+    background-color: #eae8e7;
+}
+
+.no-books {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F1F0;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.no-books:hover {
+    background-color: #eae8e7;
+}
+
+.book-title {
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.book {
+    cursor: pointer;
+}
+
+.book:active {
+    transform: scale(0.9);
+    transition: all 0.3s ease-out;
+}
+
+.author {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+i {
+    cursor: pointer;
+}
+
+i:active {
+    transform: scale(0.8);
+    transition: all 0.3s ease-out;
+}
+
+.add-new {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.label {
+    font-weight: 500;
+    margin-right: 10px;
+    width: 70px;
+}
+
+.actions-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.books-list {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.book-details-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+
+.book-details-author-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.book-details-label {
+    font-weight: 600;
+    width: 75px;
+}
+
+.margin-left-search {
+    margin-left: 40px;
+}
+
+.search-button {
+    margin-left: 10px;
+}
