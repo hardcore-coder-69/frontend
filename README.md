@@ -1,7 +1,7 @@
 # frontend
-# LMS Frontend
+# Library Management System Frontend
 
-Steps for setup:
+# Steps:
 
 Step 1: npm install
 
