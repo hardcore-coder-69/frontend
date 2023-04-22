@@ -69,7 +69,7 @@ export default function Header() {
             <h1>Library Management System</h1>
 
             <div className="icon-container" onClick={(e) => toggleOverlay(e)}>
-                <i className="pi pi-user"></i>
+                <i className="pi pi-user header-user"></i>
             </div>
 
             <OverlayPanel ref={op}>
